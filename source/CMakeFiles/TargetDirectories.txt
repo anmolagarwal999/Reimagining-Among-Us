@@ -1,0 +1,9 @@
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/CMakeFiles/rebuild_cache.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/CMakeFiles/Hello-World.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/CMakeFiles/edit_cache.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/CMakeFiles/glad.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/libraries/glfw/CMakeFiles/rebuild_cache.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/libraries/glfw/CMakeFiles/edit_cache.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/libraries/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/libraries/glfw/src/CMakeFiles/glfw.dir
+/home/anmolagarwal/Desktop/graphics_assignment/hello_finalize_1/source/libraries/glfw/src/CMakeFiles/edit_cache.dir
