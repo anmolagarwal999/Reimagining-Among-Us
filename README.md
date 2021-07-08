@@ -56,7 +56,7 @@ Although the tasks can be completed in any order, **both of them must be complet
 ### Some details
 * For text rendering, I have used `<ft2build.h>` which must be present in /usr folder of the machine (resource used to learn: excellent tutorials on learnOpenGL) .
 * For loading textures, I have used `stb_image.cpp` which is available for open source use.
-* I have used sprites for characters and textures for buttons, obstacles, rewards.
+* I have used sprites for characters (taken from [here](https://www.spriters-resource.com/pc_computer/amongus/) ) and textures for buttons, obstacles, rewards.
 
 ### To build and run
 ```bash
