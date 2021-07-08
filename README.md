@@ -1,17 +1,17 @@
 # Imagining 'Among Us' in OpenGL
-#### - By Anmol Agarwals
+#### - By Anmol Agarwal
 
 ### Gameplay
-The game is a reimagination of the popular game [AMONG US](https://youtu.be/p0aHDT8wwrw) (developed by InnerSloth), in OpenGL.
+The game is a reimagination of the popular game [AMONG US](https://youtu.be/p0aHDT8wwrw) (developed by InnerSloth), in **OpenGL**.
 It was built by me as a part of the Computer Graphics Spring 2021 course.
-The player starts at the bottom left corner of the maze and the aim is to reach the top-right of the maze. Throughout the game, the player is chased by the impostor, coming in contact with whom the player gets killed. The player cannot exit the maze without killing the impostor and releasing the obstacles/bonus collectibles.
+The player starts at the bottom left corner of the maze and the aim is to reach the top-right of the maze. Throughout the game, the player is *chased by the impostor*, coming in contact with whom the player gets killed. The player cannot exit the maze without killing the impostor and releasing the obstacles/bonus collectibles.
 
 <hr/>
 
 ### Maze Generation and Path Finding Algorithm
 
 * The maze is generated using **Depth First Search with a backtracking approach** (this generates a random maze at every run).
-* Also, I am using **BFS to precompute which direction will be the best** for the impostor to move (pre-computations is characterized by a 4 tuple of src_x, src_y, dest_x, dest_y). If the impostor is in cell (x1, y1) and player is in cell (x2, y2), then the direction in which the impostor should move to have the shortest path to the player is precomputed. The precomputation prevents the need for repetitive computation at every frame while the game is being played and enhances the experience.
+* Also, I am using **BFS to precompute which direction will be the best** for the impostor to move (pre-computations is characterized by a 4 tuple of src_x, src_y, dest_x, dest_y). If the impostor is in cell (x1, y1) and player is in cell (x2, y2), then the direction in which the impostor should move to have the shortest path to the player is precomputed. **The precomputation prevents the need for repetitive computation at every frame** while the game is being played and hence, enhances the experience.
 <hr/>
 
 ### Tasks for the crewmate
@@ -19,9 +19,9 @@ The player starts at the bottom left corner of the maze and the aim is to reach 
   <img width="80" height="80" src="./resources/among_us_specific/individual_sprites/idle.png">
 </p>
 
-Although the tasks can be completed in any order, both of them must be completed in order for the EXIT to become visible.
-* Find and press the VAPORIZE button to kill the impostor before it kills the player.
-* Find and press the SURPRISE button to release CROWN collectibles and harmful obstacles throughout the maze.
+Although the tasks can be completed in any order, **both of them must be completed in order for the EXIT to become visible**.
+* Find and press the **VAPORIZE** button to kill the impostor before it kills the player.
+* Find and press the **SURPRISE** button to release CROWN collectibles and harmful obstacles throughout the maze.
 <hr/>
 <img align="left" width="31" height="31" src="./resources/among_us_specific/crown.png"/>
  <p>This is a bonus collectible which can be collected by the player to increase his score.</p>
@@ -63,7 +63,7 @@ Although the tasks can be completed in any order, both of them must be completed
 $ ./run.sh
 ```
 
-##### Build Requirements
+#### Build Requirements
 * `OpenGL`
 * `GLAD`
 * `GLFW`
